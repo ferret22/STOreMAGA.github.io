@@ -1,1 +1,1 @@
-# STOreMAGA.io
+# STOreMAGA.github.io
