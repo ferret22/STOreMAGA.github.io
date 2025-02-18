@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root * {
+    --roboto-font: "Roboto", sans-serif;
+}
+
+body{
+    background-color: aqua;
+    background-position: center;
+    background-size: cover;
+    font-family: var(--roboto-font);
+}
+
+header{
+    aside {
+        background-color: #f9f9f9;
+        margin-left: 1.2vw;
+        padding: 1.2vw;
+        width: 20vw;
+        float: left;
+    
+        font-size: 1vw;
+
+        img{
+            width: 2.5vw;
+        }
+        
+        h2{
+            font-weight: 200;
+        }
+    
+        li{
+            font-weight: 350;
+            list-style: none;
+        }
+    }
+
+    .head-div{
+        h1{
+            text-align: center;
+            margin-right: 22vw;
+            font-size: 2vw;
+            font-weight: 200;
+        }
+        ul{
+            margin-right: 24.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            list-style: none;
+        
+            img{
+                width: 2vw;
+                height: 2vh;
+                padding: 2vw;
+                margin: 1vw;
+            }
+        }
+    }
+}
+
+
+.popular-items{
+    h2{
+        text-align: center;
+        margin-right: 23vw;
+        font-size: 1.6vw;
+        font-weight: 85;
+    }
+    .popular-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            text-align: center;
+            font-size: 1.1vw;
+            font-weight: 300;
+        }
+    
+        img{
+            width: 20vw;
+            height: 38vh;
+        }
+
+        figure{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        figcaption{
+            text-align: center;
+        }
+    }
+}
+
+.sales{
+    h2{
+        text-align: center;
+        font-size: 3vw;
+        font-weight: 300;
+    }
+
+    .sales-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            text-align: center;
+            font-size: 1.1vw;
+            font-weight: 300;
+        }
+
+        img{
+            width: 25vw;
+            height: 45vh;
+        }
+
+        figure{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        figcaption{
+            text-align: center;
+        }
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
